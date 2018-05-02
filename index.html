@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- Font -->
+<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+
+<div class="container">
+  <h1 class="title"> Your Weather</h1>
+
+  <button id="changeTempC"class="new-btn" onclick="switchVisible();">Show both C and F </button>
+  
+<button class="button" type="button" value="Click" onclick="getLocation()">Click for Your Weather</button>
+  <br>
+  <div class="yellow-font"> 
+<!--     Weather goes here -->
+<p id="geoLocationId"></p>
+<p class="noDisplay" id="Cel"></p>
+<p id="Far"></p>
+<p id="City"></p>
+    
+  </div>
+    
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
